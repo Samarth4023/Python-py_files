@@ -7,8 +7,9 @@
 # The first line contains integers n and m separated by a space.
 # The second line contains n integers, the elements of the array.
 # The third and fourth lines contain m integers, A and ,B respectively.
+# Enter your code here. Read input from STDIN. Print output to STDOUT.
 
-# Enter your code here. Read input from STDIN. Print output to STDOUT
+
 n, m = map(int, input().split())
 arr = list(map(int, input().split()))
 set_A = set(map(int, input().split()))
